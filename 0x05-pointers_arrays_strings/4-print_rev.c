@@ -1,4 +1,4 @@
-#inclde "main.h"
+#include "main.h"
 
 /**
  * print_rev - a function that prints a string in reverse
@@ -9,7 +9,7 @@
  */
 void print_rev(char *s)
 {
-	int len = o;
+	int len = 0;
 
 	while (s[len] != '\0')
 		len++;
@@ -17,6 +17,6 @@ void print_rev(char *s)
 	while (len)
 		_putchar(s[--len]);
 
-	-putchar('\n');
+	_putchar('\n');
 }
 
