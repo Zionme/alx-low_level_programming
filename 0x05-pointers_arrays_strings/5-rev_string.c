@@ -3,12 +3,12 @@
 
 /**
  * rev_string - a function that reverses a string
- * followed by a new line line
+ * followed by a new line.
  * @s: an input string
  *
  * Return: Always 0.
  */
-void re_string(char *s)
+void rev_string(char *s)
 {
 	int len = 0, i = 0;
 	char aux;
