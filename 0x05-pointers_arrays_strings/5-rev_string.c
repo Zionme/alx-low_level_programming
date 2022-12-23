@@ -19,7 +19,7 @@ void re_string(char *s)
 	while (i < len--)
 	{
 		aux = s[i];
-		a[i++] = s[len];
+		s[i++] = s[len];
 		s[len] = aux;
 	}
 }
