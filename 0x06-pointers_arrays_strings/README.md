@@ -1,1 +1,1 @@
-more ponters arrays and strings
+a function that concatenates two strings
