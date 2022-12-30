@@ -1,1 +1,1 @@
-a function that prints a square, followed by a new line
+a function that prints a triangle, followed by a new line
