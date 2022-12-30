@@ -1,1 +1,1 @@
-a function that prints a square, followed by a new line.
+a program that prints the numbers from 1 to 100, followed by a new line
