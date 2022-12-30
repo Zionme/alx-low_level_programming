@@ -18,19 +18,4 @@ void print_number(int n)
 	else
 		print_number(n);
 }
-/**
- * print_integer - A function to print n
- * @m: An input unsigned integer
- * Return: 0.
- */
-void print_integer(int m)
-{
-	int i = 1000000000;
-
-	for (; i >= 1; i /= 10)
-		if (m / i != 0)
-		{
-			putchar((m / i) % 10 + '0');
-		}
-}
 
