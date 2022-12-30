@@ -4,7 +4,7 @@
 /**
  * _islower - check description
  * @c: An input character
- * Description: prints lowercase charscters
+ * Description: prints alphabets 10 times in lowercase, followed by new line.
  * Return: 1 if c is lowercase or 0 if otherwise.
  */
 int _islower(int c)
