@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_times_table -prints times table for numbers from 0 to 14
@@ -15,10 +14,10 @@ void print_times_table(int n)
 	{
 		for (i = 0; i <= n; i++)
 		{
-			putchar('0');
+			_putchar('0');
 			for (j = 1; j <= n; j++)
 				putformat(i * j);
-			putchar('\n');
+			_putchar('\n');
 		}
 	}
 }
@@ -32,27 +31,27 @@ void putformat(int n)
 {
 	if (n <= 9)
 	{
-		putchar(',');
-		putchar(' ');
-		putchar(' ');
-		putchar(' ');
-		putchar(n + '0');
+		_putchar(',');
+		_putchar(' ');
+		_putchar(' ');
+		_putchar(' ');
+		_putchar(n + '0');
 	}
-	else if (n > 9 && n <=99)
+	else if (n > 9 && n <= 99)
 	{
-		putchar(',');
-		putchar(' ');
-		putchar(' ');
-		putchar(n / 10 + '0');
-		putchar(n % 10 + '0');
+		_putchar(',');
+		_putchar(' ');
+		_putchar(' ');
+		_putchar(n / 10 + '0');
+		_putchar(n % 10 + '0');
 	}
 	else
 	{
-		putchar(',');
-		putchar(' ');
-		putchar(n / 100 + '0');
-		putchar(n / 10 % 10 + '0');
-		putchar(n % 10 + '0');
+		_putchar(',');
+		_putchar(' ');
+		_putchar(n / 100 + '0');
+		_putchar(n / 10 % 10 + '0');
+		_putchar(n % 10 + '0');
 	}
 }
 
