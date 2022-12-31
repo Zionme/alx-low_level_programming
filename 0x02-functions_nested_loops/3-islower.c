@@ -8,6 +8,7 @@
  * alphabet in lowercase 10 times, followed by a new line.
  * Return: 1 if c is lowercase or 0 if otherwise.
  */
+
 int _islower(int c)
 {
 	char i;
