@@ -1,13 +1,11 @@
 #include "main.h"
-#include <stdio.h>
-#include <unistd.h>
 
 /**
  * _islower - check main
  * @c: An input character
  * Description: function uses _putchar function to print
  * alphabet in lowercase 10 times, followed by a new line.
- * Return: 1 if c is lowercase or 0 if otherwise.
+ * Return: 1 if c is lowercase or 0 if c is uppercase.
  */
 
 int _islower(int c)
