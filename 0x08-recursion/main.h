@@ -8,3 +8,6 @@ int _sqrt_recursion(int n);
 int find_sqrt(int num, int root);
 int is_prime_number(int n);
 int is_divisible(int num, int div);
+int is_palindrome(char *s);
+int check_palindrome(char *s, int len, int indes);
+int find_strlen(char *s);
