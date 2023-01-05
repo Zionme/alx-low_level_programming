@@ -11,3 +11,4 @@ int is_divisible(int num, int div);
 int is_palindrome(char *s);
 int check_palindrome(char *s, int len, int indes);
 int find_strlen(char *s);
+int wildcmp(char *s1, char *s2);
