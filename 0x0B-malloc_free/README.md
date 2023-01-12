@@ -1,1 +1,1 @@
-a function that frees a 2 dimensional grid
+a function that concatenates all the arguments of your program.
