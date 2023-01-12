@@ -8,13 +8,22 @@
  * Return: 0.
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	int arg;
+	int num1, num2, result;
 
-	for (arg = 0; arg < argc; arg++)
-		printf("%s\n", argv[arg]);
-
-	return (0);
+	if (argc !- 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
+	else
+	{
+		num1 = atoi(argv[1]);
+		num2 = atoi(argv[2]);
+		result = num1 * num2;
+		printf("%d\n", result);
+		return (0);
+	}
 }
 
