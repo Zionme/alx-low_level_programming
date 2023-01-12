@@ -1,1 +1,1 @@
-learning and practicing automatic and dynamic allocation, malloc and free
+a function that creates an array of chars, and initializes it with a specific char
