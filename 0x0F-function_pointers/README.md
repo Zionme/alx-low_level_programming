@@ -1,1 +1,1 @@
-Learninfunction pointers, pointers to function
+a function that prints a name
