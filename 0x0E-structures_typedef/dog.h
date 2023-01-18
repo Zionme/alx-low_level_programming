@@ -5,7 +5,7 @@
  * struct dog - a new type for a dog.
  * @name: name of dog.
  * @age: age of dog.
- * @pwner: owner of dog.
+ * @owner: owner of dog.
  */
 
 struct dog
