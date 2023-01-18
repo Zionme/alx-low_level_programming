@@ -1,1 +1,1 @@
-a function that creates a new dog.
+ a function that frees dogs
