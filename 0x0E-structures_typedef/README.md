@@ -1,1 +1,1 @@
-learning structures, typdef
+a new type struct dog with the following elements
