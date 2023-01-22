@@ -1,1 +1,1 @@
-a program that performs simple operations
+a program that prints the opcodes of its own main function
