@@ -1,1 +1,1 @@
- a function that creates a file
+a function that appends text at the end of a file
