@@ -1,1 +1,1 @@
-a hash function implementing the djb2 algorithm
+a function that gives you the index of a key.
