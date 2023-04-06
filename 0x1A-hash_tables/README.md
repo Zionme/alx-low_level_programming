@@ -1,1 +1,1 @@
-Learning Hash table data structure, hash functions and hash tables
+a function that creates a hash table
