@@ -1,1 +1,1 @@
-a function that gives you the index of a key.
+a function that retrieves a value associated with a key
