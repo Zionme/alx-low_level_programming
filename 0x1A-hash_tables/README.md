@@ -1,1 +1,1 @@
-a function that prints a hash table
+a function that deletes a hash table.
