@@ -1,1 +1,1 @@
-a function that retrieves a value associated with a key
+a function that prints a hash table
