@@ -1,1 +1,1 @@
-a function that deletes a hash table.
+In PHP, hash tables are ordered
