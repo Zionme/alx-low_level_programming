@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * insert_dnodeint_at_index - Inserts a new node in a dlistint_t
